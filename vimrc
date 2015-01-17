@@ -1,3 +1,6 @@
+et encoding=utf-8
+set langmenu=zh_CN.UTF-8
+
 let &termencoding=&encoding
 set nocompatible
 set fileencodings=utf-8,gbk
@@ -34,3 +37,9 @@ let NERDTreeWinPos = 'right'
 "nerdtree window Size
 let NERDTreeWinSize = 30
 let NERDTreeShowFiles = 1
+
+"code folding
+set foldmethod=syntax
+autocmd FileType python set foldmethod=indent
+autocmd FileType xml set foldmethod=indent
+autocmd FileType dia set foldmethod=indent
