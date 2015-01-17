@@ -6,4 +6,3 @@ How to Use:
   mv .vimrc{,.bak}
   git clone https://github.com/VnlyZhang/ideVim.git .vim/
   ln -s .vim/vimrc .vimrc
-  
